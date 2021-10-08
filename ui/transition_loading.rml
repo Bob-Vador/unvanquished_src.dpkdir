@@ -2,7 +2,6 @@
 	<head>
 		<link type="text/rcss" href="/ui/shared/basics.rcss" />
 		<style>
-
 			body {
 				width: 100%;
 				height: 100%;
@@ -54,6 +53,7 @@
 				   This stops the the percentage number "jiggling" left and right */
 				font-family: Dejavu Sans;
 			}
+
 			infobox {
 				display:block;
 				position: absolute;
@@ -77,12 +77,10 @@
 				height: 1em;
 				width: auto;
 			}
-
 		</style>
-		<title>Loading</title>
+		<title><translate>Loading</translate></title>
 	</head>
 	<body id="loading" nohide>
-
 		<levelshot_loading/>
 
 		<infobox>
@@ -94,11 +92,8 @@
 			<progress_value src="overall" />
 		</percentage>
 
-
 		<barbox>
 			<progressbar src="overall" class="barValue"/>
 		</barbox>
-
-
 	</body>
 </rml>

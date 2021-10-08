@@ -41,8 +41,6 @@
 
 			clip_stack
 			{
-
-
 				z-index: -1;
 			}
 			div#bars
@@ -55,7 +53,6 @@
 			}
 			progressbar
 			{
-
 				image: /gfx/colors/white;
 				orientation: right;
 				z-index: -1;
@@ -134,7 +131,6 @@
 				display:block;
 			}
 
-
 			weapon_icon img, img.clip, health_cross, img.stamina{
 				z-index:3;
 				width:auto;
@@ -144,7 +140,6 @@
 				top:-60%;
 				left:-1%;
 				color:#aaffffff;
-
 
 			}
 			health.health, health_cross{
@@ -165,7 +160,6 @@
 				top:-10%;
 				left:2%;
 			}
-
 
 			div#momentum
 			{
@@ -253,12 +247,9 @@
 				background-decorator: image;
 				background-image: "/ui/assets/human/scanner";
 			}
-
 	</style>
 	</head>
 	<body id="hud_human">
-
-
 		<div id="hudbg">
 			<img id="right" src="/ui/assets/human/rightbg.tga"/>
 			<img id="left" src="/ui/assets/human/leftbg.tga"/>
@@ -267,7 +258,8 @@
 			<div class="ammo"><weapon_icon/><ammo/><ammo_stack/></div>
 			<div class="clips"><img class="clip" src="/ui/assets/human/clip.tga"/>
 			<clips/><clip_stack/></div>
-			<div class="credits"><credits/> Credits</div>
+			<!-- FIXME: We may want to include <credits/> in the translatable string. -->
+			<div class="credits"><credits/>&nbsp;<translate>Credits</translate></div>
 		</div>
 		<div id="bars">
 			<div class="stamina"><img class="stamina" src="/ui/assets/human/stamina.tga"/>

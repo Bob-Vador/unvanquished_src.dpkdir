@@ -246,8 +246,8 @@
 			</wallwalk>
 			<img class="light sides" src="/ui/assets/alien/lr.png" />
 			<weapon_icon />
-			<div id="evos"><evos /> morph points</div>
+			<!-- FIXME: We may want to include <evos/> in the translatable string. -->
+			<div id="evos"><evos/>&nbsp;<translate>morph points</translate></div>
 		</div>
-
 	</body>
 </rml>
