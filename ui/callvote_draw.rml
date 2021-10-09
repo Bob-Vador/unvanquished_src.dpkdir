@@ -15,7 +15,7 @@
 				<h3><translate>Reason</translate></h3>
 			</row>
 
-			<input type="submit"><button><translate>Call Vote</translate></button></input>
+			<input type="submit"><button><translate>Call vote</translate></button></input>
 		</form>
 	</body>
 </rml>

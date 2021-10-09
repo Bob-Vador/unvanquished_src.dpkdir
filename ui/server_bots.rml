@@ -4,7 +4,7 @@
 		<link type="text/template" href="/ui/shared/window.rml" />
 	</head>
 	<body id="server_bots" template="window" style="width: 32em; margin: 1em;">
-		<h1><translate>Bot Settings</translate></h1>
+		<h1><translate>Bot settings</translate></h1>
 
 		<tabset>
 			<tab><translate>General</translate></tab>

@@ -16,7 +16,7 @@
 		</style>
 	</head>
 	<body id="help_textentry" template="window" style="width: 32em; margin: 1em;">
-		<h1><translate>Colour Codes and Symbols</translate></h1>
+		<h1><translate>Colour codes and symbols</translate></h1>
 
 		<p>
 			<translate>Colours are used by typing their escape code starting with a caret (^) symbol. Colour can be reset again to normal using ^*, or an actual caret can be typed using ^^.</translate>

@@ -4,7 +4,7 @@
 		<link type="text/template" href="/ui/shared/window.rml" />
 	</head>
 	<body id="options_keys" template="window" style="width: 41em; margin: 1em;">
-		<h1><translate>Key Bindings</translate></h1>
+		<h1><translate>Key bindings</translate></h1>
 
 		<p><translate>Press Escape to cancel changing a key binding.</translate></p>
 
@@ -50,11 +50,11 @@
 				</row>
 				<row>
 					<keybind cmd="+moveleft" />
-					<p><translate>Move Left:</translate></p>
+					<p><translate>Move left:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+moveright" />
-					<p><translate>Move Right:</translate></p>
+					<p><translate>Move right:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+moveup" />
@@ -73,15 +73,15 @@
 			<panel>
 				<row>
 					<keybind cmd="+attack" />
-					<p><translate>Primary Attack:</translate></p>
+					<p><translate>Primary attack:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+attack2" />
-					<p><translate>Secondary Attack:</translate></p>
+					<p><translate>Secondary attack:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+attack3" team="aliens" />
-					<p><translate>Shoot Barb:</translate></p>
+					<p><translate>Shoot barb:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="itemact grenade" team="humans" />
@@ -93,11 +93,11 @@
 				</row>
 				<row>
 					<keybind cmd="itemact medkit" team="humans" />
-					<p><translate>Use Medkit:</translate></p>
+					<p><translate>Use medkit:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+activate" team="humans" />
-					<p><translate>Use Structure:</translate></p>
+					<p><translate>Use structure:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+activate" team="aliens" />
@@ -112,15 +112,15 @@
 				</row>
 				<row>
 					<keybind cmd="message_public" />
-					<p><translate>Global Chat:</translate></p>
+					<p><translate>Global chat:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="message_team" />
-					<p><translate>Team Chat:</translate></p>
+					<p><translate>Team chat:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="message_admin" />
-					<p><translate>Admin Chat:</translate></p>
+					<p><translate>Admin chat:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="vote yes" />
@@ -132,18 +132,18 @@
 				</row>
 				<row>
 					<keybind cmd="teamvote yes" />
-					<p><translate>Team Vote Yes:</translate></p>
+					<p><translate>Team vote Yes:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="teamvote no" />
-					<p><translate>Team Vote No:</translate></p>
+					<p><translate>Team vote No:</translate></p>
 				</row>
 			</panel>
 			<tab><translate>Misc</translate></tab>
 			<panel>
 				<row>
 					<keybind cmd="+scores" />
-					<p><translate>Show Scores:</translate></p>
+					<p><translate>Show scores:</translate></p>
 				</row>
 				<row>
 					<keybind cmd='+deconstruct' />
@@ -168,23 +168,23 @@
 			<panel>
 				<row>
 					<keybind cmd="+lookup" />
-					<p><translate>Look Up:</translate></p>
+					<p><translate>Look up:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+lookdown" />
-					<p><translate>Look Down:</translate></p>
+					<p><translate>Look down:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+left" />
-					<p><translate>Turn Left:</translate></p>
+					<p><translate>Turn left:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+right" />
-					<p><translate>Turn Right:</translate></p>
+					<p><translate>Turn right:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="+mlook" />
-					<p><translate>Mouse Look:</translate></p>
+					<p><translate>Mouse look:</translate></p>
 				</row>
 				<row>
 					<keybind cmd="centerview" />

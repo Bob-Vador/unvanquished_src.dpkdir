@@ -5,7 +5,7 @@
 
 	</head>
 	<body id="options_fov" template="window" style="width: 30em; margin: 1em;">
-		<h1><translate>Fields of View</translate></h1>
+		<h1><translate>Fields of view</translate></h1>
 
 		<h2><translate>Angles of view</translate></h2>
 		<p><translate>FOV = “width” of player's vision, measured in degrees.</translate></p>

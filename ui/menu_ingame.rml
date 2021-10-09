@@ -25,8 +25,8 @@
 
 						<h2><translate>Teams</translate></h2>
 						<indent>
-							<blocklink onClick='Events.pushevent("exec team alien; hide ingame_menu", event)'><translate>Join aliens</translate></blocklink>
-							<blocklink onClick='Events.pushevent("exec team human; hide ingame_menu", event)'><translate>Join humans</translate></blocklink>
+							<blocklink onClick='Events.pushevent("exec team alien; hide ingame_menu", event)'><translate>Join Aliens</translate></blocklink>
+							<blocklink onClick='Events.pushevent("exec team human; hide ingame_menu", event)'><translate>Join Humans</translate></blocklink>
 							<blocklink onClick='Events.pushevent("exec team spec; hide ingame_menu", event)'><translate>Spectate</translate></blocklink>
 						</indent>
 
@@ -87,7 +87,7 @@
 					</if>
 
 					<sidesection id="sidebar_main">
-						<h1><translate>Main Menu</translate></h1>
+						<h1><translate>Main menu</translate></h1>
 
 						<h2><translate>Play</translate></h2>
 						<indent>

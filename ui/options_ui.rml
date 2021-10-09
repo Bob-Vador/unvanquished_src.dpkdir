@@ -4,7 +4,7 @@
 		<link type="text/template" href="/ui/shared/window.rml" />
 	</head>
 	<body id="options_ui" template="window" style="width: 32em; margin: 1em;">
-		<h1><translate>User Interface</translate></h1>
+		<h1><translate>User interface</translate></h1>
 
 		<row>
 			<h3><translate>Real-time clock</translate></h3>
@@ -21,16 +21,16 @@
 			<p><translate>Show how long a match has lasted.</translate></p>
 		</row>
 		<row>
-			<h3><translate>Crosshair Visiblity</translate></h3>
+			<h3><translate>Crosshair visiblity</translate></h3>
 			<select name="drawcrosshair" cvar="cg_drawCrosshair">
 				<option value="0"><translate>Never</translate></option>
-				<option value="1"><translate>Ranged Weapons Only</translate></option>
+				<option value="1"><translate>Ranged weapons only</translate></option>
 				<option value="2"><translate>Always</translate></option>
 			</select>
 			<p></p>
 		</row>
 		<row>
-		<h3><translate>Crosshair Size</translate></h3>
+		<h3><translate>Crosshair size</translate></h3>
 			<select name="wwspeed" cvar="cg_crosshairSize">
 				<option value="0.5"><translate>Tiny</translate></option>
 				<option value="0.75"><translate>Small</translate></option>

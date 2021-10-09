@@ -39,7 +39,7 @@
 				<h3><translate>Map</translate></h3>
 			</row>
 
-			<input type="submit"><button><translate>Perform Action</translate></button></input>
+			<input type="submit"><button><translate>Perform action</translate></button></input>
 		</form>
 
 		<levelshotbox>
